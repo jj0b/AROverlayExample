@@ -12,10 +12,14 @@
 		96C334FD1353F36900AD25CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C334FC1353F36900AD25CA /* CoreGraphics.framework */; };
 		96C335031353F36900AD25CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C335011353F36900AD25CA /* InfoPlist.strings */; };
 		96C335061353F36900AD25CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C335051353F36900AD25CA /* main.m */; };
-		96C335091353F36900AD25CA /* AROverlayExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C335081353F36900AD25CA /* AROverlayExampleAppDelegate.m */; };
 		96C3350C1353F36900AD25CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C3350A1353F36900AD25CA /* MainWindow.xib */; };
-		96C3350F1353F36900AD25CA /* AROverlayExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C3350E1353F36900AD25CA /* AROverlayExampleViewController.m */; };
-		96C335121353F36900AD25CA /* AROverlayExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C335101353F36900AD25CA /* AROverlayExampleViewController.xib */; };
+		96C3351A1353F60100AD25CA /* AROverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C335181353F60100AD25CA /* AROverlayViewController.xib */; };
+		96C335321353FC2600AD25CA /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C335301353FC2600AD25CA /* overlaygraphic.png */; };
+		96C335331353FC2600AD25CA /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C335311353FC2600AD25CA /* scanbutton.png */; };
+		96C3353B1353FC5000AD25CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C335361353FC5000AD25CA /* AppDelegate.m */; };
+		96C3353C1353FC5000AD25CA /* AROverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C335381353FC5000AD25CA /* AROverlayViewController.m */; };
+		96C3353D1353FC5000AD25CA /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C3353A1353FC5000AD25CA /* CaptureSessionManager.m */; };
+		96C335411353FE1500AD25CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C335401353FE1500AD25CA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,21 @@
 		96C334F81353F36900AD25CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96C334FA1353F36900AD25CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96C334FC1353F36900AD25CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		96C335001353F36900AD25CA /* AROverlayExample-Info.plist */ = {isa = PBXFileReference; path = "AROverlayExample-Info.plist"; sourceTree = "<group>"; };
+		96C335001353F36900AD25CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C335021353F36900AD25CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		96C335041353F36900AD25CA /* AROverlayExample-Prefix.pch */ = {isa = PBXFileReference; path = "AROverlayExample-Prefix.pch"; sourceTree = "<group>"; };
 		96C335051353F36900AD25CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96C335071353F36900AD25CA /* AROverlayExampleAppDelegate.h */ = {isa = PBXFileReference; path = AROverlayExampleAppDelegate.h; sourceTree = "<group>"; };
-		96C335081353F36900AD25CA /* AROverlayExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AROverlayExampleAppDelegate.m; sourceTree = "<group>"; };
 		96C3350B1353F36900AD25CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		96C3350D1353F36900AD25CA /* AROverlayExampleViewController.h */ = {isa = PBXFileReference; path = AROverlayExampleViewController.h; sourceTree = "<group>"; };
-		96C3350E1353F36900AD25CA /* AROverlayExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AROverlayExampleViewController.m; sourceTree = "<group>"; };
-		96C335111353F36900AD25CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AROverlayExampleViewController.xib; sourceTree = "<group>"; };
+		96C335191353F60100AD25CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AROverlayViewController.xib; sourceTree = "<group>"; };
+		96C3352F1353FBFD00AD25CA /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		96C335301353FC2600AD25CA /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		96C335311353FC2600AD25CA /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
+		96C335351353FC5000AD25CA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		96C335361353FC5000AD25CA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		96C335371353FC5000AD25CA /* AROverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AROverlayViewController.h; sourceTree = "<group>"; };
+		96C335381353FC5000AD25CA /* AROverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AROverlayViewController.m; sourceTree = "<group>"; };
+		96C335391353FC5000AD25CA /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		96C3353A1353FC5000AD25CA /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		96C335401353FE1500AD25CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C335411353FE1500AD25CA /* AVFoundation.framework in Frameworks */,
 				96C334F91353F36900AD25CA /* UIKit.framework in Frameworks */,
 				96C334FB1353F36900AD25CA /* Foundation.framework in Frameworks */,
 				96C334FD1353F36900AD25CA /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +79,7 @@
 		96C334F71353F36900AD25CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96C335401353FE1500AD25CA /* AVFoundation.framework */,
 				96C334F81353F36900AD25CA /* UIKit.framework */,
 				96C334FA1353F36900AD25CA /* Foundation.framework */,
 				96C334FC1353F36900AD25CA /* CoreGraphics.framework */,
@@ -79,12 +90,10 @@
 		96C334FE1353F36900AD25CA /* AROverlayExample */ = {
 			isa = PBXGroup;
 			children = (
-				96C335071353F36900AD25CA /* AROverlayExampleAppDelegate.h */,
-				96C335081353F36900AD25CA /* AROverlayExampleAppDelegate.m */,
-				96C3350A1353F36900AD25CA /* MainWindow.xib */,
-				96C3350D1353F36900AD25CA /* AROverlayExampleViewController.h */,
-				96C3350E1353F36900AD25CA /* AROverlayExampleViewController.m */,
-				96C335101353F36900AD25CA /* AROverlayExampleViewController.xib */,
+				96C335351353FC5000AD25CA /* AppDelegate.h */,
+				96C335361353FC5000AD25CA /* AppDelegate.m */,
+				96C335341353FC5000AD25CA /* Classes */,
+				96C3353F1353FCF500AD25CA /* XIBs */,
 				96C334FF1353F36900AD25CA /* Supporting Files */,
 			);
 			path = AROverlayExample;
@@ -93,12 +102,42 @@
 		96C334FF1353F36900AD25CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				96C335001353F36900AD25CA /* AROverlayExample-Info.plist */,
+				96C3353E1353FCE400AD25CA /* Images */,
+				96C3352F1353FBFD00AD25CA /* Prefix.pch */,
+				96C335001353F36900AD25CA /* Info.plist */,
 				96C335011353F36900AD25CA /* InfoPlist.strings */,
-				96C335041353F36900AD25CA /* AROverlayExample-Prefix.pch */,
 				96C335051353F36900AD25CA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C335341353FC5000AD25CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96C335371353FC5000AD25CA /* AROverlayViewController.h */,
+				96C335381353FC5000AD25CA /* AROverlayViewController.m */,
+				96C335391353FC5000AD25CA /* CaptureSessionManager.h */,
+				96C3353A1353FC5000AD25CA /* CaptureSessionManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		96C3353E1353FCE400AD25CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				96C335301353FC2600AD25CA /* overlaygraphic.png */,
+				96C335311353FC2600AD25CA /* scanbutton.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		96C3353F1353FCF500AD25CA /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				96C3350A1353F36900AD25CA /* MainWindow.xib */,
+				96C335181353F60100AD25CA /* AROverlayViewController.xib */,
+			);
+			name = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +189,9 @@
 			files = (
 				96C335031353F36900AD25CA /* InfoPlist.strings in Resources */,
 				96C3350C1353F36900AD25CA /* MainWindow.xib in Resources */,
-				96C335121353F36900AD25CA /* AROverlayExampleViewController.xib in Resources */,
+				96C3351A1353F60100AD25CA /* AROverlayViewController.xib in Resources */,
+				96C335321353FC2600AD25CA /* overlaygraphic.png in Resources */,
+				96C335331353FC2600AD25CA /* scanbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96C335061353F36900AD25CA /* main.m in Sources */,
-				96C335091353F36900AD25CA /* AROverlayExampleAppDelegate.m in Sources */,
-				96C3350F1353F36900AD25CA /* AROverlayExampleViewController.m in Sources */,
+				96C3353B1353FC5000AD25CA /* AppDelegate.m in Sources */,
+				96C3353C1353FC5000AD25CA /* AROverlayViewController.m in Sources */,
+				96C3353D1353FC5000AD25CA /* CaptureSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,12 +228,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		96C335101353F36900AD25CA /* AROverlayExampleViewController.xib */ = {
+		96C335181353F60100AD25CA /* AROverlayViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96C335111353F36900AD25CA /* en */,
+				96C335191353F60100AD25CA /* en */,
 			);
-			name = AROverlayExampleViewController.xib;
+			name = AROverlayViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -209,7 +251,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -223,7 +265,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -236,9 +278,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AROverlayExample/AROverlayExample-Prefix.pch";
-				INFOPLIST_FILE = "AROverlayExample/AROverlayExample-Info.plist";
+				GCC_PREFIX_HEADER = AROverlayExample/Prefix.pch;
+				INFOPLIST_FILE = AROverlayExample/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,9 +292,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AROverlayExample/AROverlayExample-Prefix.pch";
-				INFOPLIST_FILE = "AROverlayExample/AROverlayExample-Info.plist";
+				GCC_PREFIX_HEADER = AROverlayExample/Prefix.pch;
+				INFOPLIST_FILE = AROverlayExample/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +320,7 @@
 				96C335171353F36900AD25CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
