@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C334F91353F36900AD25CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C334F81353F36900AD25CA /* UIKit.framework */; };
+		96C334FB1353F36900AD25CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C334FA1353F36900AD25CA /* Foundation.framework */; };
+		96C334FD1353F36900AD25CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C334FC1353F36900AD25CA /* CoreGraphics.framework */; };
+		96C335031353F36900AD25CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C335011353F36900AD25CA /* InfoPlist.strings */; };
+		96C335061353F36900AD25CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C335051353F36900AD25CA /* main.m */; };
+		96C335091353F36900AD25CA /* AROverlayExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C335081353F36900AD25CA /* AROverlayExampleAppDelegate.m */; };
+		96C3350C1353F36900AD25CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C3350A1353F36900AD25CA /* MainWindow.xib */; };
+		96C3350F1353F36900AD25CA /* AROverlayExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C3350E1353F36900AD25CA /* AROverlayExampleViewController.m */; };
+		96C335121353F36900AD25CA /* AROverlayExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C335101353F36900AD25CA /* AROverlayExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96C334F41353F36900AD25CA /* AROverlayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AROverlayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C334F81353F36900AD25CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96C334FA1353F36900AD25CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96C334FC1353F36900AD25CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96C335001353F36900AD25CA /* AROverlayExample-Info.plist */ = {isa = PBXFileReference; path = "AROverlayExample-Info.plist"; sourceTree = "<group>"; };
+		96C335021353F36900AD25CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96C335041353F36900AD25CA /* AROverlayExample-Prefix.pch */ = {isa = PBXFileReference; path = "AROverlayExample-Prefix.pch"; sourceTree = "<group>"; };
+		96C335051353F36900AD25CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96C335071353F36900AD25CA /* AROverlayExampleAppDelegate.h */ = {isa = PBXFileReference; path = AROverlayExampleAppDelegate.h; sourceTree = "<group>"; };
+		96C335081353F36900AD25CA /* AROverlayExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AROverlayExampleAppDelegate.m; sourceTree = "<group>"; };
+		96C3350B1353F36900AD25CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		96C3350D1353F36900AD25CA /* AROverlayExampleViewController.h */ = {isa = PBXFileReference; path = AROverlayExampleViewController.h; sourceTree = "<group>"; };
+		96C3350E1353F36900AD25CA /* AROverlayExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AROverlayExampleViewController.m; sourceTree = "<group>"; };
+		96C335111353F36900AD25CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AROverlayExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C334F11353F36900AD25CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C334F91353F36900AD25CA /* UIKit.framework in Frameworks */,
+				96C334FB1353F36900AD25CA /* Foundation.framework in Frameworks */,
+				96C334FD1353F36900AD25CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C334E91353F36900AD25CA = {
+			isa = PBXGroup;
+			children = (
+				96C334FE1353F36900AD25CA /* AROverlayExample */,
+				96C334F71353F36900AD25CA /* Frameworks */,
+				96C334F51353F36900AD25CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C334F51353F36900AD25CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C334F41353F36900AD25CA /* AROverlayExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C334F71353F36900AD25CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C334F81353F36900AD25CA /* UIKit.framework */,
+				96C334FA1353F36900AD25CA /* Foundation.framework */,
+				96C334FC1353F36900AD25CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96C334FE1353F36900AD25CA /* AROverlayExample */ = {
+			isa = PBXGroup;
+			children = (
+				96C335071353F36900AD25CA /* AROverlayExampleAppDelegate.h */,
+				96C335081353F36900AD25CA /* AROverlayExampleAppDelegate.m */,
+				96C3350A1353F36900AD25CA /* MainWindow.xib */,
+				96C3350D1353F36900AD25CA /* AROverlayExampleViewController.h */,
+				96C3350E1353F36900AD25CA /* AROverlayExampleViewController.m */,
+				96C335101353F36900AD25CA /* AROverlayExampleViewController.xib */,
+				96C334FF1353F36900AD25CA /* Supporting Files */,
+			);
+			path = AROverlayExample;
+			sourceTree = "<group>";
+		};
+		96C334FF1353F36900AD25CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C335001353F36900AD25CA /* AROverlayExample-Info.plist */,
+				96C335011353F36900AD25CA /* InfoPlist.strings */,
+				96C335041353F36900AD25CA /* AROverlayExample-Prefix.pch */,
+				96C335051353F36900AD25CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C334F31353F36900AD25CA /* AROverlayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C335151353F36900AD25CA /* Build configuration list for PBXNativeTarget "AROverlayExample" */;
+			buildPhases = (
+				96C334F01353F36900AD25CA /* Sources */,
+				96C334F11353F36900AD25CA /* Frameworks */,
+				96C334F21353F36900AD25CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AROverlayExample;
+			productName = AROverlayExample;
+			productReference = 96C334F41353F36900AD25CA /* AROverlayExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C334EB1353F36900AD25CA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 96C334EE1353F36900AD25CA /* Build configuration list for PBXProject "AROverlayExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96C334E91353F36900AD25CA;
+			productRefGroup = 96C334F51353F36900AD25CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C334F31353F36900AD25CA /* AROverlayExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C334F21353F36900AD25CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C335031353F36900AD25CA /* InfoPlist.strings in Resources */,
+				96C3350C1353F36900AD25CA /* MainWindow.xib in Resources */,
+				96C335121353F36900AD25CA /* AROverlayExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C334F01353F36900AD25CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C335061353F36900AD25CA /* main.m in Sources */,
+				96C335091353F36900AD25CA /* AROverlayExampleAppDelegate.m in Sources */,
+				96C3350F1353F36900AD25CA /* AROverlayExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96C335011353F36900AD25CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C335021353F36900AD25CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96C3350A1353F36900AD25CA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C3350B1353F36900AD25CA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		96C335101353F36900AD25CA /* AROverlayExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C335111353F36900AD25CA /* en */,
+			);
+			name = AROverlayExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C335131353F36900AD25CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96C335141353F36900AD25CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		96C335161353F36900AD25CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AROverlayExample/AROverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "AROverlayExample/AROverlayExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96C335171353F36900AD25CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AROverlayExample/AROverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "AROverlayExample/AROverlayExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C334EE1353F36900AD25CA /* Build configuration list for PBXProject "AROverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C335131353F36900AD25CA /* Debug */,
+				96C335141353F36900AD25CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C335151353F36900AD25CA /* Build configuration list for PBXNativeTarget "AROverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C335161353F36900AD25CA /* Debug */,
+				96C335171353F36900AD25CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C334EB1353F36900AD25CA /* Project object */;
+}
