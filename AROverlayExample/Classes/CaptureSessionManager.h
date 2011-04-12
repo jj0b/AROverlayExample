@@ -2,14 +2,14 @@
 #import <AVFoundation/AVFoundation.h>
 
 
-@interface CaptureSessionManager : NSObject <AVCaptureVideoDataOutputSampleBufferDelegate> {
+@interface CaptureSessionManager : NSObject {
 
 }
 
-- (void)addVideoPreviewLayer;
-- (void)addVideoInput;
-
 @property (retain) AVCaptureVideoPreviewLayer *previewLayer;
 @property (retain) AVCaptureSession *captureSession;
+
+- (void)addVideoPreviewLayer;
+- (void)addVideoInput;
 
 @end

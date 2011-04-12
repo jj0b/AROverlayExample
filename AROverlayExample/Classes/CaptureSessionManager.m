@@ -8,12 +8,20 @@
 
 #pragma mark Capture Session Configuration
 
-- (void) addVideoPreviewLayer {
-	[self setPreviewLayer:[[AVCaptureVideoPreviewLayer alloc] initWithSession:[self captureSession]]];
-	[[self previewLayer] setVideoGravity:AVLayerVideoGravityResizeAspectFill];
+- (id)init {
+	if ((self = [super init])) {
+		[self setCaptureSession:[[AVCaptureSession alloc] init]];
+	}
+	return self;
 }
 
-- (void) addVideoInput {
+- (void)addVideoPreviewLayer {
+	[self setPreviewLayer:[[[AVCaptureVideoPreviewLayer alloc] initWithSession:[self captureSession]] autorelease]];
+	[[self previewLayer] setVideoGravity:AVLayerVideoGravityResizeAspectFill];
+  
+}
+
+- (void)addVideoInput {
 	AVCaptureDevice *videoDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];	
 	if (videoDevice) {
 		NSError *error;
@@ -29,13 +37,6 @@
 	}
 	else
 		NSLog(@"Couldn't create video capture device");
-}
-
-- (id) init {
-	if ((self = [super init])) {
-		[self setCaptureSession:[[AVCaptureSession alloc] init]];
-	}
-	return self;
 }
 
 - (void)dealloc {
