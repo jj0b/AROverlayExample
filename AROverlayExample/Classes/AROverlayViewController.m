@@ -12,7 +12,7 @@
 	[[self captureManager] addVideoInput];
   
 	[[self captureManager] addVideoPreviewLayer];
-	CGRect layerRect = self.view.layer.bounds;
+	CGRect layerRect = [[[self view] layer] bounds];
 	[[[self captureManager] previewLayer] setBounds:layerRect];
 	[[[self captureManager] previewLayer] setPosition:CGPointMake(CGRectGetMidX(layerRect),
                                                                 CGRectGetMidY(layerRect))];
